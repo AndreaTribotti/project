@@ -16,8 +16,7 @@ This project focuses on **Multi-Label Text Classification** applied to the **Tin
 * **Source:** TinyStories dataset.
 * **Scale:** The dataset consists of a **train set** (2,735,100 stories) and a **test set** (10,000 stories).
 * **Methodology:** We utilized a subset of 250,000 stories for training and validation to optimize computational resources.
-* **Integrity:** The test set was used exclusively for final evaluation to ensure unbiased performance metrics [report.pdf].
-
+* **Integrity:** The test set was used exclusively for final evaluation to ensure unbiased performance metrics.
 ### 🏷️ Target Tags
 The models are designed to identify the following six narrative elements:
 * `BadEnding`
@@ -68,4 +67,4 @@ We evaluated the models using **Accuracy**, **Precision**, **Recall**, and **F1-
 You can run the full analysis directly in your browser using Google Colab. No installation required.
 
 1.  Click the **"Open in Colab"** badge at the top of this README.
-2.  Run the cells sequentially to train the models or view the pre-computed results.
+2.  Run the cells sequentially to train the models.
