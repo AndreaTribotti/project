@@ -10,17 +10,22 @@
 ---
 
 ## 📖 Project Overview
-This project focuses on **Multi-Label Text Classification** applied to a corpus of stories. The goal is to predict six predefined tags based on the text content. Unlike standard classification, each story can belong to multiple categories simultaneously.
+This project focuses on **Multi-Label Text Classification** applied to the **TinyStories dataset**, a corpus of short children's stories written with simple vocabulary. The objective is to predict six predefined narrative tags based on the story content. Unlike standard classification, each story can belong to multiple categories simultaneously.
 
-### The Tags
-The models predict the presence of the following narrative elements:
+### 📊 Dataset Details
+* **Source:** TinyStories dataset.
+* **Scale:** The dataset consists of a **train set** (2,735,100 stories) and a **test set** (10,000 stories).
+* **Methodology:** We utilized a subset of 250,000 stories for training and validation to optimize computational resources.
+* **Integrity:** The test set was used exclusively for final evaluation to ensure unbiased performance metrics [report.pdf].
+
+### 🏷️ Target Tags
+The models are designed to identify the following six narrative elements:
 * `BadEnding`
 * `Conflict`
 * `Dialogue`
 * `Foreshadowing`
 * `MoralValue`
 * `Twist`
-
 ---
 
 ## 🤖 Models Implemented
