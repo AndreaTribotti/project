@@ -40,7 +40,7 @@ We developed and compared three different machine learning approaches, ranging f
 * **Components:** Token Embedding, Learned Positional Embedding, 1 Transformer Encoder Layer, Max Pooling.
 * **Characteristics:** computationally efficient (~4 mins), higher precision than the baseline.
 
-### 3. DistilBERT (Fine-Tuning)
+### 3. [DistilBERT](https://huggingface.co/distilbert/distilbert-base-uncased) (Fine-Tuning)
 * **Architecture:** Pre-trained **DistilBERT** (uncased) from Hugging Face.
 * **Training:** Fine-tuned for 5 epochs with Binary Cross-Entropy Loss.
 * **Characteristics:** Best overall performance (Accuracy & F1-Score), though computationally more expensive (~200 mins training time).
