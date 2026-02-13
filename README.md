@@ -66,10 +66,12 @@ We evaluated the models using **Accuracy**, **Precision**, **Recall**, and **F1-
 ## 🚀 How to Run
 You can run the full analysis directly in your browser using Google Colab. No installation required.
 
-⚠️ Important:
-The notebook does NOT train the models by default.
-Pre-trained weights are loaded from Google Drive to avoid 
-~200 minutes of training time.
+You can run the full analysis directly in your browser using Google Colab — no installation required.
 
-1.  Click the **"Open in Colab"** badge at the top of this README.
-2.  Run the cells sequentially to load the weights and check the results.
+⚠️ Important: The notebook does NOT train the models by default.
+To ensure fast reproducibility and avoid ~200 minutes of training time, 
+pre-trained weights are loaded from Google Drive.
+
+Click the "Open in Colab" badge at the top of this README.
+Run the cells sequentially to load the weights and reproduce the reported results.
+
