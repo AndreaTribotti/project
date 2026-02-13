@@ -64,8 +64,6 @@ We evaluated the models using **Accuracy**, **Precision**, **Recall**, and **F1-
 ---
 
 ## 🚀 How to Run
-You can run the full analysis directly in your browser using Google Colab. No installation required.
-
 You can run the full analysis directly in your browser using Google Colab — no installation required.
 
 ⚠️ Important: The notebook does NOT train the models by default.
